@@ -1,0 +1,281 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto';
+	font-size: 16px;
+	color: #333;
+	font-weight: 300;
+}
+ul{
+	list-style: none;
+}
+
+/* customize for bootstrap --*/
+.p-l-n{
+	padding-left: 0;
+}
+.p-r-n{
+	padding-right: 0;
+}
+.p-n{
+	padding: 0;
+}
+.m-l-n{
+	margin-left: 0;
+}
+.m-r-n{
+	margin-right: 0;
+}
+.row{margin: 0;}
+a,
+a:hover,
+a:active,
+a:focus{text-decoration: none; cursor: pointer;}
+.btn-apply{
+	width: auto;
+	padding: 20px 85px;
+	color: #fff;
+	border: 2px solid #fff;
+	background-color: #065b89;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 20px;
+}
+.btn-apply:hover,
+.btn-apply:active,
+.btn-apply:focus{
+	color: #fff;
+}
+.btn-download{
+	width: 235px;
+	text-align: center;
+	padding: 10px 0;
+	color: #fff;
+	background-color: #e03640;
+	font-size: 16px;
+	display: inline-block;
+	border-radius: 3px;
+}
+.btn-download:hover{color: #fff;}
+.btn-download.disable{
+	cursor: not-allowed;
+	background-color: #777;
+}
+.bg-gray{
+	background-color: #f4f4f5;
+}
+header,
+section,
+footer{
+	float: left;
+}
+header{
+	background-color: #fff;
+	width: 100%;
+	display: inline-block;
+	clear: both;
+	height: 60px;
+	border-bottom: 1px solid #e7e7e7;
+}
+section{
+		padding: 80px 0;
+		text-align: center;
+}
+.section-title{
+	width: 100%;
+	text-align: center;
+	padding: 0 0 50px;
+}
+.section-title h2{font-size: 30px;font-weight: 300; background: url(../img/underline.png) center bottom no-repeat; padding: 0 0 20px;margin: 0;}
+.section-title h2 span{font-weight: 500;}
+.section-title p.info{font-size: 16px; font-weight: 300; padding: 20px 0 0; text-align: center;}
+.section-title p.info span{font-weight: 500}
+.section-conyainer{
+	width: 100%;
+	display: inline-block;
+	clear: both;
+}
+.header-section{
+	border-bottom: 1px solid #e7e7e7;
+}
+.navbar-brand{padding: 7px 0}
+.navbar-brand>img{max-width: 200px; width: 100%;}
+.navbar-collapse{padding: 0;}
+.navbar-nav>li>a{font-size: 14px; text-transform: uppercase; padding: 19px 20px; color: #777; font-weight: 400}
+.navbar-nav>li>a:hover{color: #777}
+.navbar-nav>li .social-share{padding-top: 14px;}
+.navbar-nav>li .social-share span{ display: inline-block;padding: 0 15px; float: left;}
+.navbar-nav>li .social-share span.fb-share{padding-left: 10px;}
+.navbar-nav>li .social-share i{font-size: 35px;margin-top: -2px;}
+.navbar-nav>li .social-share span.languages-web{background-color: #d6d6d6; color: #777; border-radius: 3px; padding: 4px 15px;}
+.navbar-nav>li .social-share span.languages-web a{color: #777}
+.navbar-nav>li .social-share span.languages-web a.active{color: #065b89;}
+.navbar-toggle{background-color: #065b89;}
+.navbar-toggle .icon-bar{background-color: #fff}
+/* hero banner --*/
+.hero-banner-section{
+	background: url(../img/bg-banner.jpg) #fba350 bottom left repeat-x;
+	width: 100%;
+	display: inline-block;
+	clear: both;
+	text-align: center;
+	padding: 50px 0;
+}
+.hero-banner-section .swift-logo{}
+.hero-banner-section .swift-logo img{margin: auto; max-width: 100px;}
+.hero-banner-section .hero-banner-text{
+	padding: 20px 0 60px;
+	color: #fff;
+}
+.hero-banner-section .hero-banner-text h2{font-size: 45px; text-transform: capitalize; font-weight: 300; line-height: 55px;}
+.hero-banner-section .hero-banner-text p{font-size: 20px; font-weight: 300; line-height: 26px; padding: 20px 0 30px}
+.hero-banner-button{display: inline-block;
+clear: both;
+padding-bottom: 40px;
+}
+/*--- coder school --- */
+.coder-school-block{
+	width: 100%;
+	clear: both;
+	display: inline-block;
+	height: 80px;
+	background-color: #484848;
+	text-align: right;
+	line-height: 80px;
+	color: #fff;
+	font-size: 14px;
+	padding: 0;
+}
+.coder-school-block img{max-width: 200px;}
+/*-- topITworks Academy --- */
+.topITworks-academy-block{
+	width: 100%;
+	clear: both;
+	display: inline-block;
+}
+.topITworks-academy-block .academy-image{text-align: center; height: 50px;} 
+.topITworks-academy-block .academy-image img{max-width: 250px; max-height: 50px; margin: auto}
+.topITworks-academy-block p{font-size: 16px; padding: 20px 0 0; text-align: center;}
+.topITworks-academy-block .academy-item{padding: 0 45px;}
+/* -- our-approach-block--*/
+.our-approach-block{
+	width: 100%;
+	clear: both;
+	display: inline-block;
+	text-align: center;
+}
+.our-approach-content{padding-top: 20px; width: 100%;display: inline-block;}
+.our-approach-content .ic-approach{
+	background: url(../img/ic-approach.png) left top no-repeat;
+	background-size: 80px;
+	width: 80px;
+	height: 80px;
+	clear: both;
+	margin: auto;
+}
+.our-approach-content .ic-approach.admission{
+	background-position: 0 -81px;
+}
+.our-approach-content .ic-approach.projects{
+	background-position: 0 -162px;
+}
+.our-approach-content h3{font-weight: 300; font-size: 25px; text-transform: capitalize;}
+.our-approach-content p{font-size: 16px; color: #999; font-weight: 300}
+/* -- our-course-block -- */
+.our-course-block{
+		width: 100%;
+	clear: both;
+	display: inline-block;
+	text-align: center;
+}
+.our-course-block .course-image{text-align: center; height: 80px;} 
+.our-course-block .course-image img{max-width: 250px; max-height: 65px; margin: auto}
+.our-course-block .course-image.swift img{max-height: 80px;}
+.our-course-block p{font-size: 16px; padding: 20px 0 0; text-align: left;}
+.our-course-block .course-item{padding: 0 45px;}
+.course-item ul{
+	list-style: initial;
+	padding: 10px 0 0 25px;
+	text-align: left;
+}
+.course-item li{font-size: 16px; padding: 2px 0;}
+.course-item .download-document{
+	width: 100%; 
+	clear: both;
+	display: inline-block;
+	padding-top: 10px;
+}
+.course-item .download-document p{padding-bottom: 10px;}
+.course-item .download-document p span{font-weight: 500; font-style: italic;}
+.course-item .download-document p.note{font-size: 12px; color: #666; padding: 10px 0 0; text-align: center;}
+/*-- demo-day-block -- */
+.demo-day-block{
+	width: 100%;
+	clear: both;
+	display: inline-block;
+	text-align: center;	
+	padding-bottom: 0;
+}
+.demo-day-container{
+	background: url(../img/demo.jpg) center bottom no-repeat;
+	min-height: 550px;
+	width: 100%;
+	display: inline-block;
+	background-size: cover;
+}
+/*-- demo-day-block -- */
+.faq-block{
+	width: 100%;
+	clear: both;
+	display: inline-block;
+	text-align: center;		
+}
+.faq-block .faq-item{
+	padding-bottom: 20px;
+	text-align: left;
+}
+.faq-block .faq-item h3{font-size: 18px; font-weight: 400}
+.faq-block .faq-item .quote-content{width: 100%;display: inline-block;clear: both; padding: 15px 25px; border: 1px solid #dcdcdc; border-top-width: 4px;}
+.faq-item .quote-content h4{font-size: 14px; text-transform: uppercase; font-weight: 400}
+.faq-item .quote-content p{font-size: 16px;}
+
+/*-- testimonials-block -- */
+.testimonials-block{
+	width: 100%;
+	clear: both;
+	display: inline-block;
+	text-align: center;	
+}
+.testimonial-item{text-align: left; margin-bottom: 20px;}
+.testimonial-item p{background: url(../img/quote.png) left top no-repeat;background-size: 25px;padding-left:  35px;}
+/* -- applications-block -- */
+.applications-block{
+	background: url(../img/bg-banner.jpg) #fba350 bottom left repeat-x;
+	width: 100%;
+	clear: both;
+	display: inline-block;
+	text-align: center;	
+	min-height: 300px;
+	padding: 150px 0;
+}
+.applications-block h2{font-size: 50px; font-weight: 500; color: #fff; margin: 0;padding: 0 0 20px;}
+.applications-block h2 span{color: #065b89}
+.applications-block p{font-size: 20px; color: #fff;}
+.applications-block p span{color: #065b89}
+.applications-block .apply{width: 100%;
+clear: both;display: inline-block;padding-top: 60px;}
+footer{
+	text-align: center;
+	background-color: #fff;
+	font-size: 16px;
+	width: 100%;
+	clear: both;
+	display: inline-block;
+	padding: 20px;
+}
+footer p{margin: 0;padding: 0;}
+footer a{color: #333}

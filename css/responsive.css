@@ -1,0 +1,24 @@
+@media (min-width: 320px) and (max-width: 768px) {
+	.container{width: 100%;}
+	.header-section .container{padding: 0;}
+	.navbar-collapse{background-color: #fff; max-height: inherit !important;margin-top:9px; border-top: 0;}
+	.navbar{z-index: 999}
+	.navbar-brand{padding-left: 15px;}
+	.navbar-nav{margin: 0;}
+	.navbar-nav>li>a{color: #777; border-bottom: 1px solid #e7e7e7}
+	.navbar-nav>li .social-share{padding: 15px 10px 10px; width: 100%;display: inline-block;}
+	.hero-banner-section .hero-banner-text h2{font-size: 35px; line-height: 35px;}
+	.hero-banner-section .hero-banner-text p{font-size: 18px;}
+	.topITworks-academy-block .academy-item{padding: 0 0 25px}
+	.our-course-block .course-item{padding: 0 0 25px;}
+	.faq-block .faq-item{padding: 0 0 25px;}
+	.faq-block .faq-item .quote-content{height: auto !important;}
+	.testimonial-item{padding: 0 0 25px; height: auto !important;}
+}
+@media (min-width: 769px) and (max-width: 999px){
+	.container{width: 100%;}
+	.navbar-nav>li>a{padding: 19px 15px;}
+	.navbar-brand{padding: 10px 0}
+	.navbar-brand>img{max-width: 150px;}
+	.our-course-block .course-item{padding: 0 25px}
+}
